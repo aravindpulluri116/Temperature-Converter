@@ -1,0 +1,30 @@
+body{
+    background-color: hsl(180, 100%, 79%);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    color: rgb(255, 255, 255);
+    text-decoration: underline dashed;
+    text-decoration-color: rgb(2, 129, 232);
+}
+form{
+    text-align: center;
+    background-color: hsl(184, 84%, 48%);
+    max-width: 400px;
+    border-radius: 20px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 25px 25px 80px hsl(0, 100%, 50%);
+}
+#input{
+    width: 50%;
+    border-radius: 4px
+}
+#result{
+    margin-right: 50px;
+    font-size: 2em;
+    
+}
+#submit:hover{
+    background-color: rgba(0, 110, 255, 0.413);
+}
